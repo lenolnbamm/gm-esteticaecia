@@ -141,7 +141,7 @@ section .content p {
   fill: var(--primary-color);
 }
 
-#navigation .logo path[fill*='#00856F'],
+#navigation .logo,
 #backToTopButton circle {
   fill: var(--primary-color);
 }
@@ -151,9 +151,9 @@ button.open-menu path[stroke*='#00856F'],
   stroke: var(--primary-color);
 }
 
-body.menu-expanded #navigation .logo path,
-#navigation.scroll .logo path {
-  fill: white;
+body.menu-expanded #navigation .logo,
+#navigation.scroll .logo {
+  color: white;
 }
 
 #navigation.scroll button.open-menu path[stroke*='#00856F'] {
@@ -678,8 +678,9 @@ footer .social-links {
     color: var(--primary-color);
   }
 
+  nav#navigation.scroll .logo,
   nav#navigation.scroll .logo span {
-    color: var(--brand-light-2);
+    color: var(--brand-light);
   }
 
   /* HOME */

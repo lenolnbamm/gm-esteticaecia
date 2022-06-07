@@ -680,7 +680,7 @@ footer .social-links {
 
   nav#navigation.scroll .logo,
   nav#navigation.scroll .logo span {
-    color: var(--brand-light);
+    color: white;
   }
 
   /* HOME */
